@@ -1,24 +1,35 @@
 <div align="center">
   <img src="https://github.com/LazyFoxGame.png" width="150" style="border-radius: 50%;" />
-  <h1>Lazy Fox Games 🦊</h1>
-  <p><b>Student & Indie Developer | AI & GameDev Enthusiast</b></p>
-  <p>Building new things with Python, AI, and Unreal Engine.</p>
+  <h1>Den AI Assistant 🦊</h1>
+  <p><b>Your personal, private, and free AI assistant for Windows.</b></p>
 </div>
 
 ---
 
-### 🚀 What am I working on?
-*   🤖 **Den AI Assistant:** A personal voice assistant for Windows built with Python, Claude API, and SQLite.
-*   🎮 **Unreal Engine Game:** An indie game project (currently in development).
+**Den** — это персональный голосовой ассистент, разработанный студией **Lazy Fox Games**. Он работает локально на вашем ПК, не требует платных подписок (если использовать локальный ИИ) и умеет выполнять реальные действия.
 
-### 🛠️ Tech Stack
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Unreal_Engine-313131?style=for-the-badge&logo=unreal-engine&logoColor=white" />
-</p>
+## 🚀 Features
+*   **Voice Control:** Wake word "Den" and full text-to-speech via Piper.
+*   **App Launcher:** Opens any application or Steam game by voice/text.
+*   **Smart Search:** Fast file search using a local SQLite index.
+*   **Memory:** Remembers facts about you and keeps chat history.
+*   **Dual-Brain:** 
+    *   **Free:** Works out-of-the-box with local Ollama models (Qwen 2.5).
+    *   **Pro:** Connect your own Claude/DeepSeek API key for maximum intelligence.
 
----
+## 🛠️ Tech Stack
+*   Python 3.10+
+*   CustomTkinter (GUI)
+*   Ollama (Local LLM)
+*   Piper (Local TTS)
+*   SQLite (Memory & Index)
 
-### 📫 Connect with me:
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/LazyFoxGames)
+## 📦 Installation
+1. Install [Python](https://www.python.org/) and [Ollama](https://ollama.com/).
+2. Download the local AI model: `ollama pull qwen2.5:7b`
+3. Clone the repository: `git clone https://github.com/LazyFoxGame/Den-AI-Assistant.git`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Run the assistant: `python main.py`
+
+## 📫 Connect
+*   Telegram channel: [@LazyFoxGames](https://t.me/LazyFoxGames)
